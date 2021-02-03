@@ -1,9 +1,8 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <!-- 卡片形式，默认最宽标准为 sm -->
+  <div class="container mx-auto max-w-sm ">
+    <router-view />
   </div>
-  <router-view/>
 </template>
 
 <style lang="scss">
